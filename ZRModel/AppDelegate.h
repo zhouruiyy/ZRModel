@@ -2,8 +2,8 @@
 //  AppDelegate.h
 //  ZRModel
 //
-//  Created by Zhou,Rui(ART) on 2020/4/21.
-//  Copyright © 2020 Zhou,Rui(ART). All rights reserved.
+//  Created by Zhou,Rui on 2020/4/21.
+//  Copyright © 2020 Zhou,Rui. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

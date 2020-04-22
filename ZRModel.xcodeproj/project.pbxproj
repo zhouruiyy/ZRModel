@@ -8,20 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		3E372243244F01F5004F9175 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E372242244F01F5004F9175 /* AppDelegate.m */; };
-		3E372246244F01F5004F9175 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E372245244F01F5004F9175 /* SceneDelegate.m */; };
 		3E372249244F01F5004F9175 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E372248244F01F5004F9175 /* ViewController.m */; };
 		3E37224C244F01F5004F9175 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E37224A244F01F5004F9175 /* Main.storyboard */; };
 		3E37224E244F01FB004F9175 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E37224D244F01FB004F9175 /* Assets.xcassets */; };
 		3E372251244F01FB004F9175 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E37224F244F01FB004F9175 /* LaunchScreen.storyboard */; };
 		3E372254244F01FB004F9175 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E372253244F01FB004F9175 /* main.m */; };
+		3E37225C244F027D004F9175 /* NSObject+ZRModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E37225B244F027D004F9175 /* NSObject+ZRModel.m */; };
+		3E37225F24500A0F004F9175 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E37225E24500A0F004F9175 /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3E37223E244F01F5004F9175 /* ZRModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZRModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E372241244F01F5004F9175 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3E372242244F01F5004F9175 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3E372244244F01F5004F9175 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		3E372245244F01F5004F9175 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		3E372247244F01F5004F9175 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3E372248244F01F5004F9175 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3E37224B244F01F5004F9175 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,6 +28,10 @@
 		3E372250244F01FB004F9175 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E372252244F01FB004F9175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E372253244F01FB004F9175 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E37225A244F027D004F9175 /* NSObject+ZRModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZRModel.h"; sourceTree = "<group>"; };
+		3E37225B244F027D004F9175 /* NSObject+ZRModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZRModel.m"; sourceTree = "<group>"; };
+		3E37225D24500A0F004F9175 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		3E37225E24500A0F004F9175 /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +66,12 @@
 			children = (
 				3E372241244F01F5004F9175 /* AppDelegate.h */,
 				3E372242244F01F5004F9175 /* AppDelegate.m */,
-				3E372244244F01F5004F9175 /* SceneDelegate.h */,
-				3E372245244F01F5004F9175 /* SceneDelegate.m */,
 				3E372247244F01F5004F9175 /* ViewController.h */,
 				3E372248244F01F5004F9175 /* ViewController.m */,
+				3E37225A244F027D004F9175 /* NSObject+ZRModel.h */,
+				3E37225B244F027D004F9175 /* NSObject+ZRModel.m */,
+				3E37225D24500A0F004F9175 /* Test.h */,
+				3E37225E24500A0F004F9175 /* Test.m */,
 				3E37224A244F01F5004F9175 /* Main.storyboard */,
 				3E37224D244F01FB004F9175 /* Assets.xcassets */,
 				3E37224F244F01FB004F9175 /* LaunchScreen.storyboard */,
@@ -146,10 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E37225C244F027D004F9175 /* NSObject+ZRModel.m in Sources */,
 				3E372249244F01F5004F9175 /* ViewController.m in Sources */,
 				3E372243244F01F5004F9175 /* AppDelegate.m in Sources */,
+				3E37225F24500A0F004F9175 /* Test.m in Sources */,
 				3E372254244F01FB004F9175 /* main.m in Sources */,
-				3E372246244F01F5004F9175 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +295,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 58CJAXYU38;
 				INFOPLIST_FILE = ZRModel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,6 +305,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zr.ZRModel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = 20200211_3_wildcard_provisioning;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -305,7 +314,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 58CJAXYU38;
 				INFOPLIST_FILE = ZRModel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -313,6 +324,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zr.ZRModel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = 20200211_3_wildcard_provisioning;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
